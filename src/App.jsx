@@ -1,16 +1,13 @@
-import './App.css'
+import IncidentDashboard from "./components/IncidentDashboard";
 
 function App() {
  
 
   return (
-    <>
-    
-      <p className="text-3xl font-bold underlineborder p-3 mb-2 rounded shadow">
-    Helloooooooooooo
-      </p>
-    </>
-  )
+    <div>
+      <IncidentDashboard />
+    </div>
+  );
 }
 
 export default App
